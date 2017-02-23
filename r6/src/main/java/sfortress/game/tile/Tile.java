@@ -7,9 +7,14 @@ public abstract class Tile {
   
   public String name;
   public TileIcon icon;
+  private TileSlot slot;
   
   public abstract void tick();
   public abstract BufferedImage draw();
+  public abstract Tile fabricate();
+  public void set(TileSlot slot) {
+    this.slot = slot;
+  }
   public String getName() {
     return getName(this);
   }
