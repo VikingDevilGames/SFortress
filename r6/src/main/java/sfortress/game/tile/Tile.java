@@ -9,7 +9,7 @@ public abstract class Tile {
   public TileIcon icon;
   
   public abstract void tick();
-  public BufferedImage draw();
+  public abstract BufferedImage draw();
   public String getName() {
     return getName(this);
   }
@@ -25,9 +25,24 @@ public abstract class Tile {
     return name;
   }
   public static boolean nameExists(String tname) {
+    boolean exists = false;
     for (int i = 0; i < tileNames.size(); i++) {
-      // UNFINISHED
+      if (tileNames.get(i)[0] == tname) {
+        exists = false;
+        break;
+      }
     }
+    return exists;
+  }
+  public static int indexOf(String tname) {
+    int k = -1;
+    for (int i = 0; i < tileNames.size(); i++) {
+      if (tileNames.get(i)[0] == tname) {
+        k = i;
+        break;
+      }
+    }
+    return k;
   }
   public static boolean addName(Tile tile, String name) {
     if (nameExists(tile.name)) {
