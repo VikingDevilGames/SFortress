@@ -1,7 +1,7 @@
 {
   "name": {
-    "title": "CaptinLAW",
-    "first": "DALE",
+    "title": "CaptinLAW",    // your title would be "Captain". It's not a gamer tag, you idiot!
+    "first": "DALE",         // LOWERCASE PLZ
     "last": "LITTON"
   },
   "Species": "Human",
@@ -9,7 +9,7 @@
   "Age": 16,
   "Appearance": {
     "Hair": {
-      "length": "1.4\"",
+      "length": "1.4\"",        // the way my engine processes hair, 0.2 would be more accurate.
       "color": "#772a01",
       "specular": "cccccc"
     },
@@ -18,38 +18,38 @@
       "inset": "2mm",
       
       "left": {
-        "iris-color": "#772a01",
-        "color": "#5dff00",
-        "pupil-color": "#ff0000"
+        "iris-color": "#772a01",    // NO HASHTAGS! THAT WOULD CAUSE THE GAME TO CRASH! NOT KIDDING BTW! (ALSO, BE REALISTIC PLZ
+        "color": "#5dff00",         // You're not jacksepticeye
+        "pupil-color": "#ff0000"    // NO
       },
       "right": {
-        "iris-color": "#772a01",
-        "color": "#5dff00",
-        "pupil-color": "#ff0000"
+        "iris-color": "#772a01",    // NO
+        "color": "#5dff00",         // NO
+        "pupil-color": "#ff0000"    // NO
       }
     }
   }
   "Armor": {
     "layer-1": [
       {
-        "name": "clothing.jeans.pants.generic",
+        "name": "clothing.jeans.pants.generic",     // NOT EVEN CLOSE! IT WOULD BE "clothing.pants.jeans.generic"!
+        "dye": "#11000a"                            // Nice color though
+      },
+      {
+        "name": "clothing.tactical.vest.generic",   // SRSLY!? "clothing.vest.tactical-vest.generic", or "clothing.vest.tactical-vest.dale" for your own custom item (if you can even code one)
         "dye": "#11000a"
       },
       {
-        "name": "clothing.tactical.vest.generic",
-        "dye": "#11000a"
+        "name": "clothing.tshirt.generic",          // "clothing.shirt.t-shirt.generic"
+        "dye": "#ff9605"                            // And WHY Orange?
       },
       {
-        "name": "clothing.tshirt.generic",
-        "dye": "#ff9605"
-      },
-      {
-        "name": "clothing.boots.generic",
-        "dye": "#0c0700"
+        "name": "clothing.boots.generic",           // "clothing.boots.combat-boots.generic"
+        "dye": "#0c0700"                            // Why the "c" and "7"? It's just black anyway! You won't be able to tell!
         },
       {
-        "name": "clothing.baseballcap.hat.generic",
-        "dye": "ff9605"
+        "name": "clothing.baseballcap.hat.generic", // CLOSE: "clothing.hat.baseball-cap.generic"
+        "dye": "ff9605"                             // AAAAAAAGGGGGHHHHHHHHHHHHH ORANGE!!!
       }
     ]
   }
