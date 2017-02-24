@@ -1,0 +1,56 @@
+{
+  "name": {
+    "title": "CaptinLAW",
+    "first": "DALE",
+    "last": "LITTON"
+  },
+  "Species": "Human",
+  "Gender": "Male",
+  "Age": 16,
+  "Appearance": {
+    "Hair": {
+      "length": "1.4\"",
+      "color": "#772a01",
+      "specular": "cccccc"
+    },
+    "Eyes": {
+      "distance": "$NORMAL",
+      "inset": "2mm",
+      
+      "left": {
+        "iris-color": "#772a01",
+        "color": "#5dff00",
+        "pupil-color": "#ff0000"
+      },
+      "right": {
+        "iris-color": "#772a01",
+        "color": "#5dff00",
+        "pupil-color": "#ff0000"
+      }
+    }
+  }
+  "Armor": {
+    "layer-1": [
+      {
+        "name": "clothing.jeans.pants.generic",
+        "dye": "#11000a"
+      },
+      {
+        "name": "clothing.tactical.vest.generic",
+        "dye": "#11000a"
+      },
+      {
+        "name": "clothing.tshirt.generic",
+        "dye": "#ff9605"
+      },
+      {
+        "name": "clothing.boots.generic",
+        "dye": "#0c0700"
+        },
+      {
+        "name": "clothing.baseballcap.hat.generic",
+        "dye": "ff9605"
+      }
+    ]
+  }
+}
