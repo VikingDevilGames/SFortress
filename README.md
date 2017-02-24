@@ -18,7 +18,7 @@ Some revisions of this code exist only on my own portable hard drive. If you wou
 5. Run the game engine.
 
 #Example:
-'''JSON
+```JSON
 {
   "tiles": [
     {
@@ -36,4 +36,4 @@ Some revisions of this code exist only on my own portable hard drive. If you wou
     ...
   ]
 }
-'''
+```
