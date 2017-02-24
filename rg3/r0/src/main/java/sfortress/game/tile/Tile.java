@@ -7,7 +7,7 @@ public abstract class Tile {
   public String name;
   public TileIcon icon;
   
-  private TileSlot slot;
+  protected TileSlot slot;
   
   public abstract Tile fabricate();
   public abstract void tick();
